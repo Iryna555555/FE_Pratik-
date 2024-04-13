@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- <ol type="I">
+        <li>Text</li>
+        <li>Text</li>
+        <li>Text</li>
+        <li>Text</li>
+    </ol>
+     -->
+    <!-- 
+    <table>
+        <tr>
+            <td rowspan="2">Браузер</td>
+             rowspan- обеденяет по вертикали
+                colspan - по горизонтали 
+            <th colspan="2">Internet Explorer</th>
+            <th colspan="3">Opera</th>
+            <th colspan="2">Firefox</th>
+        </tr>
+        <tr>
+            <th>6.0</th>
+            <th>7.0</th>
+            <th>7.0</th>
+            <th>8.0</th>
+            <th>9.0</th>
+            <th>1.0</th>
+            <th>2.0</th>
+        </tr>
+        <tr>
+            <td>Поддерживается</td>
+            <td>Нет</td>
+            <td>Да</td>
+            <td>Нет</td>
+            <td>Да</td>
+            <td>Да</td>
+            <td>Да</td>
+            <td>Да</td>
+        </tr>
+    </table> -->
+
+    <!-- <div class="block1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    </div> -->
+
+
+    <div class="all">
+        <div class="capitel">
+            <h1>Tour Booking Form</h1>
+        </div>
+
+
+
+        <form>
+            <div class="item">
+                <label for="fn">Name</label>
+                <input class="name-item" type="text" id="fn" name="First_name" placeholder="First name" required>
+                <input class="name-item" type="text" id="ln" name="Last_name" placeholder="Last name" required>
+            </div>
+
+            <div class="item">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="name@mail.ru" required>
+            </div>
+
+            <div class="item">
+                <label for="tel">Phone</label>
+                <input type="tel" id="tel" placeholder="### ### ####" required>
+            </div>
+
+            <div class="item">
+                <label for="vizit">When are you planning to vizit?</label>
+                <input type="date" id="vizit" placeholder="" required>
+            </div>
+
+            <div class="item">
+                <label for="number_of_people">How many people are in your group?</label>
+                <input type="number" name="" id="number_of_people" required>
+            </div>
+
+            <div class="item">
+                <label for="tour_select">Which tour are you most interested in?</label>
+                <select name="tour_select" required>
+                    <option disabled selected>*Please select*</option>
+                    <option value="USA">USA</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Asia">Asia</option>
+                    <option value="UAE">UAE</option>
+                </select>
+            </div>
+
+
+
+            <div class="question">
+                <p>What is the best way to contact you?</p>
+                <div>
+                    <input type="checkbox" name="contact" id="contact_phone" required>
+                    <label for="contact_phone">Phone</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="contact" id="contact_email">
+                    <label for="contact_email">Email</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="contact" id="contact_either">
+                    <label for="contact_either">Either</label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>If phone, when is the best time of day for a call-back?</p>
+                <div>
+                    <div>
+                        <input type="radio" name="time" id="time_morning" value="time">
+                        <label for="time_morning">8 - 11 AM</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="time" id="time_lunch" value="time">
+                        <label for="time_lunch">12 - 4 PM</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="time" id="time_evening" value="time">
+                        <label for="time_evening">6 - 10 PM</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <label for="else">Anything else we should know?</label>
+                    <textarea name="else" id="else" cols="30" rows="10">
+                    </textarea>
+                </div>
+
+            
+        </form>
+
+ <button>Send</button>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

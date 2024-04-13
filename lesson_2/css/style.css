@@ -1,0 +1,105 @@
+/* ol{
+    list-style-type: lower-latin;
+} */
+
+/* able, td, th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+} */
+
+/* .block1{
+    width: 200px;
+    height: 150px;
+    border: 5px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+.all {
+    width: 581px;
+    height: 1256px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 0px #3263CD;
+    margin: 20px auto;
+    padding: 20px 35px;
+}
+
+.capitel {
+    background-color: #87CEFA;
+    padding: 74px 0 60px;
+    margin-bottom: 5px;
+}
+
+.capitel h1 {
+    color: white;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+input {
+
+    border-radius: 5px;
+
+
+}
+.question {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: none;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.name-item {
+    width: Fill (512.13px)px;
+height: Hug (108px)px;
+padding: 10px 0px 10px 0px;
+gap: 20px;
+opacity: 0px;
+}
+
+button {
+
+    width: 157px;
+    height: 42px;
+    cursor: pointer;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #3263CD;
+    border: none;
+    padding: 5px;
+    transition: all 2s;
+  }
